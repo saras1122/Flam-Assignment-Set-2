@@ -8,10 +8,6 @@ This repository contains three selected questions:
 
 ## 📘 Question1 – N-Queens Problem
 
-### ❓ Problem
-
-Place `n` queens on an `n x n` chessboard such that no two queens attack each other. A queen can attack another queen horizontally, vertically, or diagonally.
-
 ### 🧠 Approach
 
 This is solved using **backtracking**:
@@ -31,10 +27,6 @@ This is solved using **backtracking**:
 ---
 
 ## 📗 Question2 – Circular Dependency Detection
-
-### ❓ Problem
-
-Given a directed graph with `n` nodes and a list of edges, determine if there is a **circular dependency** (i.e., a cycle in the graph).
 
 ### 🧠 Approach
 
