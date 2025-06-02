@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Flam Assignment</string>
+    <string name="humidity">Humidity: --%</string>
+</resources>
