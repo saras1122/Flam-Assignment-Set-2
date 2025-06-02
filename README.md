@@ -47,13 +47,11 @@ This is solved using **Kahn’s Algorithm** (a form of topological sorting):
 
 ## 📗 Question4 – WeatherTrack App - Daily Weather Tracking
 
-### 🧠 Approach
+WeatherTrack is a Java-based Android application that helps users track daily and weekly weather statistics in their city. The app fetches real-time weather data from a mock API, stores it locally every 6 hours, and visualizes trends using line charts. It follows the MVVM architecture, ensuring clean separation of concerns and scalability.The MVVM architecture in WeatherTrack promotes a modular and maintainable codebase by separating concerns across layers. The Persistence Layer uses Room to cache weather data locally, enabling offline access. The Network Layer uses Retrofit and OkHttp to fetch current weather data from a mock API. The Repository Layer acts as a single source of truth, managing data flow between the local database and remote API. The ViewModel Layer holds UI-related data, exposing it through LiveData to ensure reactive updates. The UI Layer observes the ViewModel and renders weather information like current conditions and weekly summaries. The WorkManager Layer handles background tasks, scheduling automatic weather data sync every 6 hours to keep information up to date.
 
-WeatherTrack is a Java-based Android application that helps users track daily and weekly weather statistics in their city. The app fetches real-time weather data from a mock API, stores it locally every 6 hours, and visualizes trends using line charts. It follows the MVVM architecture, ensuring clean separation of concerns and scalability.
-
-### 📌 Overview
+### 📌 Key features
 - 🌡 Current Weather Display: Shows live temperature, humidity, and sky conditions.
-- 📊 Weekly Summary Chart: View 7-day temperature trends using interactive graphs.
+- 📊 Weekly Summary Charts: Displays temperature trends over the past 7 days using line charts.
 - ⏱ Automatic Background Sync: Weather updates every 6 hours using WorkManager.
 - 🔁 Manual Refresh: Option to fetch updated weather data on demand.
 - 📆 Daily Breakdown: Check historical weather data for any past day.
