@@ -57,8 +57,7 @@ WeatherTrack is a Java-based Android application that helps users track daily an
 - 📆 Daily Breakdown: Check historical weather data for any past day.
 - 📶 Offline Support: Cached data allows full functionality without internet access.
 
-![image alt](https://github.com/saras1122/Flam-Assignment-Set-2/blob/cd583fa5001f77a8c6e760075d4019f95dbc5224/assets/Screenshot%202025-06-02%20153521.png)
-![Current Weather Screen](https://github.com/saras1122/Flam-Assignment-Set-2/blob/cd583fa5001f77a8c6e760075d4019f95dbc5224/assets/Screenshot%202025-06-02%20153544.png)
+![image alt](https://github.com/saras1122/Flam-Assignment-Set-2/blob/3e6b0ae05291b1289521ccff61dee036ae2d7ea8/assets/Screenshot%202025-06-02%20184717.png)
 
 
 
