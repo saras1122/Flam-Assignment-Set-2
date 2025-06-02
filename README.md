@@ -19,6 +19,9 @@ This is solved using **backtracking**:
   - Right diagonal check
 - If a position is safe, a queen (`'Q'`) is placed and the next row is attempted.
 - If a configuration is complete (`row == n`), it is added to the output list.
+- If no safe position is found in the current row, the algorithm backtracks by removing the previously placed queen and trying the next column.
+- Each valid board configuration is converted into a list of strings before adding to the final result to match the expected output format.
+
 
 ### 📈 Time Complexity
 
