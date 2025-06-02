@@ -47,4 +47,17 @@ This is solved using **Kahn’s Algorithm** (a form of topological sorting):
 
 ## 📗 Question4 – WeatherTrack App - Daily Weather Tracking
 
+### 🧠 Approach
+
+WeatherTrack is a Java-based Android application that helps users track daily and weekly weather statistics in their city. The app fetches real-time weather data from a mock API, stores it locally every 6 hours, and visualizes trends using line charts. It follows the MVVM architecture, ensuring clean separation of concerns and scalability.
+
+### 📌 Overview
+- 🌡 Current Weather Display: Shows live temperature, humidity, and sky conditions.
+- 📊 Weekly Summary Chart: View 7-day temperature trends using interactive graphs.
+- ⏱ Automatic Background Sync: Weather updates every 6 hours using WorkManager.
+- 🔁 Manual Refresh: Option to fetch updated weather data on demand.
+- 📆 Daily Breakdown: Check historical weather data for any past day.
+- 📶 Offline Support: Cached data allows full functionality without internet access.
+
+
 
